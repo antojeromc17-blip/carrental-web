@@ -8,7 +8,7 @@ interface CarCardProps {
 }
 
 const FALLBACK_IMAGE =
-  'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1200&q=80';
+  'https://lh3.googleusercontent.com/aida-public/AB6AXuDBNFxxZ4do_XEG_mvGtksoRwFwlpWch0p2zxGU_kr4c60znsti0zs5HnLdn0aWJBNajZwsnLzi1rCG7fvSgzVe58XTCwjWr7qDBWcDWqYf2dGz_y213YNuJX_PkTWtUbXcE_aiWjK0GHDa6Cu4PecC1V4qT9137qmUMlD1N8ehcVVYKq03iHvkLwrGHjoe-M8XBb2C8V4Jl5Dp3Diho3ZNhaZJCzJHGzR5WkdgfS8';
 
 export const CarCard: React.FC<CarCardProps> = ({ car }) => {
   const meta = getCarPresentation(car);
