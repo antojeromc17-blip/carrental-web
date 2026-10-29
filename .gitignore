@@ -1,0 +1,38 @@
+# Secrets & Passwords (MySQL / Datasource)
+**/application.properties
+!**/application.properties.example
+.env
+.env.*
+*.env
+
+# Dependencies & Build Artifacts
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+target/
+**/target/
+*.class
+
+# IDE & Editor Files
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
